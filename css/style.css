@@ -1,0 +1,31 @@
+.barra-lateral {
+  background-color: lightblue; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 100%; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; }
+
+.container {
+  display: grid;
+  grid-template-rows: 3.5rem min-content 2rem; }
+
+.cabecalho {
+  background-color: lightgreen; }
+
+.principal {
+  background-color: lightcoral;
+  padding: 1rem; }
+
+.rodape {
+  background-color: lightskyblue; }

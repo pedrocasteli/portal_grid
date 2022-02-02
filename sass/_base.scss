@@ -1,0 +1,31 @@
+//CORES
+$cor-barra-lateral: rgb(73, 80, 57);
+$cor-cabecalho: #e3e3e3;
+$cor-principal: #cccaca;
+$cor-rodape: #c2c2c2;
+
+//FONTES
+$fonte-primaria: "Poppins", sans-serif;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    font-family: $fonte-primaria;
+    font-weight: 300;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 3.5rem min-content 2rem;
+}
